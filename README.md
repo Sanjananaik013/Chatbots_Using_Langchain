@@ -15,8 +15,16 @@
     • Processing the model output using StrOutputParser
 
     • Displaying the response interactively through a Streamlit UI
+   
+    Output -
+   <img width="921" height="744" alt="image" src="https://github.com/user-attachments/assets/2e459782-3299-4e0d-90f9-fd38efdf391e" />
 
-2. The Ollama.py file contains a simple chatbot application built using LangChain, Ollama, and Streamlit.
+
+3. The Ollama.py file contains a simple chatbot application built using LangChain, Ollama, and Streamlit.
    
     The apllication allows users to ask questions through a web interface and receive responses from the locally running Llama2 language model. 
     It demonstrates how to create an end-to-end LLM pipeline using a prompt template, local model inference, and output parsing — all without relying on external APIs.
+
+   Output-
+   <img width="1058" height="399" alt="image" src="https://github.com/user-attachments/assets/5f2aa855-6831-4c0e-8dc5-31129bd2e205" />
+
