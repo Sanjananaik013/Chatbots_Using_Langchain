@@ -1,4 +1,4 @@
-📄 Project Description
+📄 Project Description(simplerag.ipynb)
 
 This project implements a simple Retrieval-Augmented Generation (RAG) pipeline using LangChain and Google Gemini embeddings.
 
@@ -33,3 +33,15 @@ This project implements a simple Retrieval-Augmented Generation (RAG) pipeline u
     Stores embeddings in vector databases like Chroma / FAISS
 
     Enables semantic search for retrieving relevant information
+
+📄 Project Description(retriver.ipynb)
+
+This project implements a advanced RAG workflow by seamlessly integrating semantic retrieval and context-aware generation into a structured pipeline on top of simple RAG(which is implemented in simplerag.ipynb).
+
+🔹 Components Used
+
+    create_stuff_documents_chain() → Used to create a document chain that combines retrieved documents with the prompt before sending to the LLM
+
+    as_retriever() → Used to convert the vector store into a retriever for semantic document search
+
+    create_retrieval_chain() → Used to create the retrieval pipeline by combining the retriever and document chain
