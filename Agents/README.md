@@ -20,7 +20,7 @@
 
       Arxiv API tool
 
-    LangSmith documentation retriever tool
+      LangSmith documentation retriever tool
 
     Used create_agent + AgentExecutor for dynamic tool selection and orchestration.
 
